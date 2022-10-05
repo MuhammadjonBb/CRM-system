@@ -1,0 +1,7 @@
+{
+    "workbench.editor.autoLockGroups": {
+        "imagePreview.previewEditor": true
+    },
+    "debug.showSubSessionsInToolBar": true,
+    "debug.toolBarLocation": "docked"
+}

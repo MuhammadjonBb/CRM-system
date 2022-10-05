@@ -28,7 +28,7 @@ export const filterTable = () => {
           result.push(el);
       });
 
-      render(result)
+      render(result);
     }
 
     timeoutID = setTimeout(filter, 300);

@@ -3,14 +3,13 @@ import { createClientForm } from "./createModalForm.js"
 import { render } from "../functions/render.js";
 import { setClient } from "../functions/setClient.js";
 import { getClientsData } from "../functions/getClients.js";
-import { createClient } from "./createClietnt.js";
+import { createClient } from "./createClient.js";
 import { deleteClient } from "../functions/delteClient.js";
 import { modifyData } from "../functions/modifyClient.js";
 import { validateForm } from "../functions/form-validate.js";
 import { getClientData } from "../functions/getClientData.js";
 import { closeModal } from "../functions/closeModal.js";
 import { createLoader } from "../functions/createLoader.js";
-import { createErrorSpan } from "./crateErrorLabel.js";
 
 const scrollUp = () => {
   window.scrollTo(0, 0);

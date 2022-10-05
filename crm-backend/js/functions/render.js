@@ -1,6 +1,5 @@
-import { createClient } from "../components/createClietnt.js";
+import { createClient } from "../components/createClient.js";
 import { createContact } from "../components/createContact.js";
-import { createTableLoader } from "../components/createTableLoader.js";
 import { showMoreBtn } from "./show-more-contacts.js";
 
 export const editStr = str => {

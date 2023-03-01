@@ -1,1 +1,1 @@
-[]
+[{"name":"John","surname":"Doe","lastName":"","contacts":[{"type":"Facebook","value":"John Doe"},{"type":"tel","value":"+1 297  2343 23"}],"id":"1677666570591","updatedAt":"2023-03-01T10:29:30.591Z","createdAt":"2023-03-01T10:29:30.591Z"},{"name":"Dwane","surname":"Johnson","lastName":"","contacts":[{"type":"Twitter","value":"@dwjohnson"}],"id":"1677666712114","updatedAt":"2023-03-01T10:31:52.114Z","createdAt":"2023-03-01T10:31:52.114Z"}]

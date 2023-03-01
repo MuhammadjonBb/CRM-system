@@ -33,18 +33,18 @@ export const createClient = (id, fullName, createdDate, lastChanges, contacts, c
 
   deleteBtn.addEventListener('click', e => {
     const parent = (e.currentTarget.parentNode).parentNode;
-    const id = `166${parent.getAttribute('id')}`;
+    const id = parent.getAttribute('id');
     document.body.append(deledeClientModal(id));
-  })
+  });
 
   updateBtn.addEventListener('click', e => {
     const target = e.currentTarget;
     target.classList.add('update-loader');
     target.prepend(createLoader(target))
     const parent = (e.currentTarget.parentNode).parentNode;
-    const id = `166${parent.getAttribute('id')}`;
+    const id = parent.getAttribute('id');
     document.body.append(modifyDataModal(id));
-  })
+  });
 
   tRow.id = id;
   idCell.textContent = id;

@@ -4,7 +4,7 @@ import { render } from "../functions/render.js";
 import { setClient } from "../functions/setClient.js";
 import { getClientsData } from "../functions/getClients.js";
 import { createClient } from "./createClient.js";
-import { deleteClient } from "../functions/delteClient.js";
+import { deleteClient } from "../functions/deleteClient.js";
 import { modifyData } from "../functions/modifyClient.js";
 import { validateForm } from "../functions/form-validate.js";
 import { getClientData } from "../functions/getClientData.js";
@@ -101,7 +101,7 @@ export const deledeClientModal = id => { // модальное окно удал
     deleteClient(id)
       .then(() => {
         modal.remove();
-        document.getElementById(`${id.slice(3)}`).remove(); // removing table-row
+        document.getElementById(id).remove(); // removing table-row
         document.body.style.overflow = 'visible';
         modalDeleteBtn.disabled = false
         return;
@@ -137,7 +137,7 @@ export const modifyDataModal = id => { // модалбное окно измен
   createForm.modalTitle.classList.add('modal__title-modify');
   idSpan.classList.add('modal__client-id');
   createForm.modalTitle.textContent = 'Изменить данные';
-  idSpan.textContent = `ID: ${id.slice(3)}`;
+  idSpan.textContent = `ID: ${id}`;
   createForm.cancelBtn.textContent = 'Удалить клиента';
 
   // adding contact

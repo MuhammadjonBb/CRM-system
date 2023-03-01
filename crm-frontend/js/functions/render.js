@@ -17,7 +17,7 @@ export const render = data => {
 
     const client = createClient
       (
-        el.id.slice(3),
+        el.id,
         fullname,
         editStr(el.createdAt).date,
         editStr(el.updatedAt).date,

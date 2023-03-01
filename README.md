@@ -6,3 +6,7 @@
     <li>Затем перейдите терминале в папку <code>crm-frotend</code> и введите команду <code>serve</code> но предварительно установив пакет <a target="_blank" href="https://www.npmjs.com/package/serve">serve</a> глобально или же введите команду <code>npm --global i serve</code> для того чтобы ее загрузить.</li>
     <li>Скопированную автоматически ссылку введите в строку поиска</li>
 </ul>
+<h3>Демо:</h3>
+
+Uploading Запись экрана 2023-03-01 в 15.30.56 (online-video-cutter.com).mp4…
+
